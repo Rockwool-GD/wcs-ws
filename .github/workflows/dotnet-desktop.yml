@@ -113,4 +113,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: dotnet-core-xunit-test.dll
-        path: ${{ env.Wap_Project_Directory }}\dotnet-core-xunit-test\bin\Debug\netcoreapp3.1\dotnet-core-xunit-test.dll
+        path: D:\a\wcs-ws\wcs-ws\dotnet-core-xunit-test\bin\Debug\netcoreapp3.1\dotnet-core-xunit-test.dll
