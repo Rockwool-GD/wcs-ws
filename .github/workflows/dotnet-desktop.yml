@@ -112,5 +112,5 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: MSIX Package
-        path: ${{ env.Wap_Project_Directory }}\AppPackages
+        name: dotnet-core-xunit-test.dll
+        path: ${{ env.Wap_Project_Directory }}\dotnet-core-xunit-test\bin\Debug\netcoreapp3.1\dotnet-core-xunit-test.dll
