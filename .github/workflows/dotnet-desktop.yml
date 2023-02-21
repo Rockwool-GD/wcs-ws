@@ -34,7 +34,8 @@
 #
 # For more information on GitHub Actions, refer to https://github.com/features/actions
 # For a complete CI/CD sample to get started with GitHub Action workflows for Desktop Applications,
-# refer to https://github.com/microsoft/github-actions-for-desktop-apps
+# refer to https://github.com/microsoft/github-actions-for-desktop-apps         configuration: [Debug, Release]
+
 
 name: .NET Core Desktop
 
@@ -50,7 +51,7 @@ jobs:
 
     strategy:
       matrix:
-        configuration: [Debug, Release]
+        configuration: [Debug]
 
     runs-on: windows-latest  # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
