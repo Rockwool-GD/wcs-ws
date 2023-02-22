@@ -1,4 +1,11 @@
 # dotnet-core-xunit-example
+
+## notes
+
+### 1.1
+- added CI / CD pipeline
+
+
 **Unit Test in .NET Core Web Api with xUnit.**
 
 In this example, we have a simple Web Api developed with .Net Core which performs database operations. Our Web API consists of the following endpoints;
